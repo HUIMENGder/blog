@@ -1,0 +1,18 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username:  root
+    password: password
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC&useUnicode=ture&characterEncoding=utf-8
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  level:
+    root: info
+    com.huimeng: debug
+  file:
+    path: log/blog.log
