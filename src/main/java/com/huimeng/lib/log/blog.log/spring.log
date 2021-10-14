@@ -1,0 +1,31 @@
+2021-10-14 15:46:06.497  INFO 7768 --- [main] com.huimeng.BlogEndApplication           : Starting BlogEndApplication v0.0.1-SNAPSHOT using Java 16 on LAPTOP-8J5B37MU with PID 7768 (D:\IDEA\blog\src\main\java\com\huimeng\lib\blog-end-0.0.1-SNAPSHOT.jar started by 25973 in D:\IDEA\blog\src\main\java\com\huimeng\lib)
+2021-10-14 15:46:06.501 DEBUG 7768 --- [main] com.huimeng.BlogEndApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-14 15:46:06.501  INFO 7768 --- [main] com.huimeng.BlogEndApplication           : No active profile set, falling back to default profiles: default
+2021-10-14 15:46:07.410  INFO 7768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-14 15:46:07.437  INFO 7768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-10-14 15:46:08.464  INFO 7768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-14 15:46:08.482  INFO 7768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-14 15:46:08.483  INFO 7768 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-14 15:46:08.484  INFO 7768 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-10-14 15:46:08.485  INFO 7768 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-10-14 15:46:08.485  INFO 7768 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-14 15:46:08.489  INFO 7768 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-10-14 15:46:08.574  INFO 7768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-14 15:46:08.575  INFO 7768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1993 ms
+2021-10-14 15:46:08.877  INFO 7768 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-14 15:46:08.947  INFO 7768 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-14 15:46:09.107  INFO 7768 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-14 15:46:09.217  INFO 7768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-14 15:46:09.644  INFO 7768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-14 15:46:09.682  INFO 7768 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-10-14 15:46:10.689  INFO 7768 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-14 15:46:10.698  INFO 7768 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-14 15:46:10.819  WARN 7768 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-14 15:46:11.218  INFO 7768 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-14 15:46:11.531  INFO 7768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-14 15:46:11.545  INFO 7768 --- [main] com.huimeng.BlogEndApplication           : Started BlogEndApplication in 5.765 seconds (JVM running for 6.305)
+2021-10-14 15:46:45.137  INFO 7768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-14 15:46:45.138  INFO 7768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-14 15:46:45.138  INFO 7768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-10-14 15:46:45.229  INFO 7768 --- [http-nio-8080-exec-1] com.huimeng.aspect.LogAspect             : RequestLog:LogAspect.RequestLog(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.huimeng.web.IndexController.index, args=[])
+2021-10-14 15:46:45.244  INFO 7768 --- [http-nio-8080-exec-1] com.huimeng.aspect.LogAspect             : Result: index
